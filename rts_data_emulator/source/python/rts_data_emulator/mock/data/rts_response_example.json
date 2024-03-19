@@ -1,0 +1,158 @@
+{
+    "request": {
+        "operation": "/api/v1/FindLogs",
+        "execution_time": 0.047
+    },
+    "response": {
+        "log": [
+            {
+                "name_well": "LMK_WELL",
+                "name_wellbore": "LMK_WELL",
+                "name": "TelemetrySend_log",
+                "object_growing": false,
+                "run_number": "0",
+                "creation_date": "2023-09-28T12:29:30.000",
+                "description": "TelemetrySend_log",
+                "index_type": "datetime",
+                "step_increment": {
+                    "uom": "ms",
+                    "value": 0.0
+                },
+                "start_date_time_index": "2024-02-26T11:02:46.000",
+                "end_date_time_index": "2024-02-26T11:04:45.000",
+                "direction": "increasing",
+                "index_curve": "Time",
+                "log_curve_info": [
+                    {
+                        "mnemonic": {
+                            "naming_system": "Time",
+                            "value": "Time"
+                        },
+                        "unit": "ms",
+                        "unit_type": "Time & date",
+                        "mnem_alias": {
+                            "naming_system": "Time & Date",
+                            "value": "Time & Date"
+                        },
+                        "alternate_index": false,
+                        "min_date_time_index": "2024-02-26T11:02:46.000",
+                        "max_date_time_index": "2024-02-26T11:04:45.000",
+                        "curve_description": "Time",
+                        "sensor_offset": {
+                            "uom": "ft",
+                            "value": 0.0
+                        },
+                        "type_log_data": "datetime",
+                        "uid": "19088067-4711-4186-8e07-055466a74da9"
+                    },
+                    {
+                        "mnemonic": {
+                            "naming_system": "RaedSimIntTest_PDP",
+                            "value": "RaedSimIntTest_PDP"
+                        },
+                        "unit": "unitless",
+                        "unit_type": "Unitless",
+                        "mnem_alias": {
+                            "naming_system": "RaedSimIntTest_PDP",
+                            "value": "RaedSimIntTest_PDP"
+                        },
+                        "alternate_index": false,
+                        "min_date_time_index": "2024-02-26T11:02:46.000",
+                        "max_date_time_index": "2024-02-26T11:04:45.000",
+                        "curve_description": "RaedSimIntTest_PDP",
+                        "sensor_offset": {
+                            "uom": "ft",
+                            "value": 0.0
+                        },
+                        "type_log_data": "int",
+                        "uid": "0293d13d-c87f-4ffd-b9c9-808d35a3d47d"
+                    },
+                    {
+                        "mnemonic": {
+                            "naming_system": "RaedSimIntTest_PIP",
+                            "value": "RaedSimIntTest_PIP"
+                        },
+                        "unit": "unitless",
+                        "unit_type": "Unitless",
+                        "mnem_alias": {
+                            "naming_system": "RaedSimIntTest_PIP",
+                            "value": "RaedSimIntTest_PIP"
+                        },
+                        "alternate_index": false,
+                        "min_date_time_index": "2024-02-26T11:02:46.000",
+                        "max_date_time_index": "2024-02-26T11:04:45.000",
+                        "curve_description": "RaedSimIntTest_PIP",
+                        "sensor_offset": {	
+                            "uom": "ft",
+                            "value": 0.0
+                        },
+                        "type_log_data": "int",
+                        "uid": "2e3ef357-94bf-4dc7-8be4-2bb628c1f830"
+                    },
+                    {
+                        "mnemonic": {
+                            "naming_system": "RaedSimIntTest_WHP",
+                            "value": "RaedSimIntTest_WHP"
+                        },
+                        "unit": "unitless",
+                        "unit_type": "Unitless",
+                        "mnem_alias": {
+                            "naming_system": "RaedSimIntTest_WHP",
+                            "value": "RaedSimIntTest_WHP"
+                        },
+                        "alternate_index": false,
+                        "min_date_time_index": "2024-02-26T11:02:46.000",
+                        "max_date_time_index": "2024-02-26T11:04:45.000",
+                        "curve_description": "RaedSimIntTest_WHP",
+                        "sensor_offset": {
+                            "uom": "ft",
+                            "value": 0.0
+                        },
+                        "type_log_data": "int",
+                        "uid": "06572ce6-a700-4820-82a9-220604814d52"
+                    }
+                ],
+                "log_data": {
+                    "mnemonic_list": [
+                        "Time",
+                        "RaedSimIntTest_PDP",
+                        "RaedSimIntTest_PIP",
+                        "RaedSimIntTest_WHP"
+                    ],
+                    "unit_list": [
+                        "ms",
+                        "unitless",
+                        "unitless",
+                        "unitless"
+                    ],
+                    "data": [
+                        [
+                            "2024-02-26T11:02:46.000",
+                            281376.00000000017,
+                            1868.0,
+                            20592.000000000015
+                        ],
+                        [
+                            "2024-02-26T11:02:47.000",
+                            281376.00000000017,
+                            1868.0,
+                            20592.000000000015
+                        ],
+                        [
+                            "2024-02-26T11:02:48.000",
+                            281376.00000000017,
+                            1868.0,
+                            20592.000000000015
+                        ],
+                        [
+                            "2024-02-26T11:02:49.000",
+                            281376.00000000017,
+                            1868.0,
+                            20592.000000000015
+                        ]
+					]
+				}
+			}
+		]
+	}
+}
